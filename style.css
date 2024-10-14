@@ -131,7 +131,7 @@
     background-color: var(--cor-primaria);
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     padding: 30px;
 }
 
@@ -165,46 +165,60 @@
     color: var(--cor-secundaria);
 }
 
-.corpoprincipal__quintasecao{
-    border: 50px solid #FDFCDC;
-    background-color: var(--cor-primaria);
+.corpoprincipal__quintasecao__titulo {
+    border: 12px solid #FDFCDC;
+    background-color: #FDFCDC;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
-.corpoprincipal__quintasecao__titulo {
+.corpoprincipal__quintasecao__fonte{
+    font-size: 32px;
     font-family: var(--font-family);
-    color: var(--cor-secundaria);
     font-weight: 700;
+    color: var(--cor-secundaria);
+}
+
+.corpoprincipal__quintasecao {
+    display: flex;
+    background-color: var(--cor-primaria);
+    align-items: center;
     justify-content: center;
-    align-self: center;
+    display: flex;
+    gap: 40px;
+    padding: 30px;
 }
 
 .corpoprincipal__quintasecao__imagem {
-    display: flex;
-    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: grid;
 }
 
 .corpoprincipal__quintasecao__imagem__cursos {
-    margin-top: 30px;
     border: 20px solid #FFFFFF;
     background-color: #FFFFFF;
     border-radius: 25px;
-    margin-bottom: 10px;
-    display: flex;
     align-items: center;
+    display: grid;
 }
 
-.corpoprincipal__quintasecao__legenda {
-    display: flex;
-    gap: 70px;
+.corpoprincipal__quintasecao__imagem__cursos-microsoft {
+    border: 12px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border-width: 40px;
 }
 
 .corpoprincipal__quintasecao__legenda__cursos {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
 }
 
 .corpoprincipal__quintasecao__legenda__credential {
@@ -224,6 +238,16 @@
     background-color: var(--cor-quartenaria);
     color: var(--cor-terciaria);
 }
+
+.corpoprincipal__quintasecao__imagem__cursos--powerbi {
+    border: 12px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    place-items: center;
+    display: grid;
+    place-items: center;
+}
+
 
 .corpoprincipal__sextasecao {
     margin-top: 30px;
