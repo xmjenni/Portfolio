@@ -273,6 +273,7 @@
 
  .corpoprincipal__sextasecao__conteudo {
     padding: 40px;
+    color: var(--cor-primaria);
  }
 
 .corpoprincipal__sextasecao__legenda {
@@ -295,7 +296,7 @@
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: 600;
-    color: var(--cor-primaria);
+    color: --cor-primaria;
     border: 1px solid #FDFCDC;
     padding: 20px;
     margin-right: 15px;
@@ -334,51 +335,61 @@
     color: var(--cor-secundaria);
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-    font-weight: 500;
-    font-family: var(--font-family);
-    font-size: 16px;
-    box-sizing: border-box;
-    background-color: var(--cor-quintenaria);
-    border: none;
-}
-
 .formulario {
     font-family: var(--font-family);
-    font-size: 12px;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 14px;
 }
 
-.formulario__nome {
-    border: 12px solid #A0AE91;
-    border-radius: 20px;
-    background-color: var(--cor-quintenaria);
+.formulario__customizacao {
     color: var(--cor-primaria);
-    padding: 5px;
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 17px;
 }
 
-.formulario__email {
-    border: 12px solid #A0AE91;
-    background-color: var(--cor-quintenaria);
-    color: var(--cor-primaria);
-    border-radius: 20px;
-    padding: 5px;
+.formulario__nome__caixa {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    background-color:var(--cor-secundaria);
+    padding: 7px;
+    text-decoration: none;
+    color: var(--cor-quartenaria);
+    border: none;
+    outline: none;
+    width: 600px;
+    height: auto;
+    resize: none;
 }
 
-.formulario__assunto {
-    border: 12px solid #A0AE91;
-    background-color: var(--cor-quintenaria);
-    color: var(--cor-primaria);
-    border-radius: 20px;
-    padding: 5px; 
+.botao {
+    display: flex;
+    justify-content: center;
 }
 
-.formulario__mensagem {
-    border: 12px solid #A0AE91;
-    background-color: var(--cor-quintenaria);
-    color: var(--cor-primaria);
+.botaoenviar {
+    background-color: var(--cor-secundaria);
+    padding: 15px;
     border-radius: 20px;
-    padding: 5px; 
+    font-family: var(--font-family);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    gap:5px;
 }
