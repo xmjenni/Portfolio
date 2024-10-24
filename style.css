@@ -377,7 +377,11 @@
     font-size: 17px;
     font-weight: 600;
     color: var(--cor-primaria);
-    
+}
+
+.botaoenviar:hover {
+    background-color: var(--cor-terciaria);
+    padding: 14px;
 }
 
 .rodape {

@@ -113,7 +113,7 @@
             <div class="corpoprincipal__sextasecao__conteudo">
                 <figcaption class="corpoprincipal__sextasecao__legenda"><h2>Decodificador de texto</h2></figcaption>
                     <p class="corpoprincipal__sextasecao__sublegenda">Challenge Alura Codificador</p>
-                    <a class="corpoprincipal__sextasecao__botaoum" href="https://github.com/xmjenni/AluraProjeto" style="text-decoration: none;color: inherit;" target="_blank">Repositório</a><a class="corpoprincipal__sextasecao__botaodois" href="https://alura-projeto-tan.vercel.app/" target="_blank">Ver Demo</a>
+                    <a class="corpoprincipal__sextasecao__botaoum" href="https://github.com/xmjenni/AluraProjeto" style="text-decoration: none;color: inherit;" target="_blank">Repositório</a><a class="corpoprincipal__sextasecao__botaodois" href="https://alura-projeto-tan.vercel.app/" target="_blank" style="text-decoration: none;">Ver Demo</a>
             </div>
         </section>
         <section class="contato">
@@ -125,7 +125,7 @@
             <p class="contato__subtitulo">Quer entrar em contato comigo?<br>
                 Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
             </p><br><br>
-            <form class="formulario">
+            <form class="formulario" action="https://formsubmit.co/jennifer.mayhara@gmail.com" method="post">
                 <section class="formulario__customizacao">
                     <label>Nome</label><br><br>
                     <input class="formulario__nome__caixa" type="text" name="Nome" placeholder="Digite aqui">
@@ -141,13 +141,16 @@
                     <textarea class="formulario__nome__caixa" name="Mensagem" rows="13" cols="60" placeholder="Mensagem" required></textarea>
                 </section>
                 <section class="botao">
-                     <button class="botaoenviar" type="Enviar">Enviar</button>
+                     <button class="botaoenviar" type="submit">Enviar</button>
                 </section>
+                <input type="hidden" name="subject" value="Novo Contato">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </section>
     </main>
     <footer class="rodape">
-        <p>Desenvolvido por Jennifer Mayhara</p><br><br>
+        <p>Desenvolvido por Jennifer Mayhara</p>
         <em>2024</em>
     </footer>
 </body>
